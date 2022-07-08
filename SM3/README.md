@@ -4,7 +4,7 @@
 This folder contains three projects for SM3 algorithm which are as follows:
 - [Project 1](#Project):Do your best to optimize SM3 implementation.
 - [Project 2](#Project):Implement the naive birthday attack of reduced SM3 (64 bit, 32 bit or more shorter).
-- [Project 3]:(#Project):Implement the Rho method of reduced of SM3.
+- [Project 3](#Project):Implement the Rho method of reduced of SM3.
 
 
 ## Folder Information
