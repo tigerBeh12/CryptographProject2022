@@ -15,7 +15,7 @@ This folder contains three projects for SM3 algorithm which are as follows:
 - [Rho_method](#Rho)
     This folder is designed to implement the birthday attack based on Rho method for SM3 hash algorithm.
 - [Cryptography](#SM3)
-    This folder contains the basic algorithms for the implementation of SM3 hash algorithm.The above two attack methods are based on this part
+    This folder contains the basic algorithms for the implementation of SM3 hash algorithm.The above two attack methods are based on this part.
 
 
 
