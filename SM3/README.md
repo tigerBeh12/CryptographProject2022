@@ -47,7 +47,7 @@ Notice:Message 1 and message 2 have the same length: 256 bits, which both are co
 
 ## Guid
 
-For this part, we use Swift to implement the above three projects, which as you see, are all contained in one Xcode project named "SM3_coll". If you want to
+For this part, we use Swift to implement the above three projects, which as you see, are all contained in one Xcode project named - [SM3_coll](#SM3_coll). If you want to
 test this project in your own computer, you can download this folder and then drag SM3_coll.xcodeproj in your Xcode. If necessary, you should click "Trust and Open" for the next steps.
 
 ## Developers
