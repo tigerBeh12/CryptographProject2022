@@ -105,7 +105,7 @@ Notice that for input and outpus, two script_type which are `pay-to-witness-pubk
 
 ### Guid
 
-If you want to check up above works, you can go to https://www.blockchain.com/btc-testnet/address/n1WbphJqRMJBB76nRQxCXMRqNFcqaAYqqe for the detail of this address. Note that the account balance may be empty because we probably has repaid the borrowed BTC, which you could find these transactions on the website.
+If you want to check up above works, you can go to https://www.blockchain.com/btc-testnet/address/n1WbphJqRMJBB76nRQxCXMRqNFcqaAYqqe for the detail of this address. Note that the account balance may be empty because we probably have repaid the borrowed BTC, which you could find these transactions on the website.
 ### Developers
 
 Yang Kunyang
