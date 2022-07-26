@@ -8,7 +8,7 @@ This folder contains the only one project for Bitcoin which is as follows:
 The testnet is an alternative Bitcoin block chain to be used for testing. Testnet coins are separate and distinct from actual bitcoins, and are never supposed to have any value. This allows application developers or bitcoin testers to experiment, without having to use real bitcoins or worrying about breaking the main bitcoin chain.You can get more information about it on https://en.bitcoin.it/wiki/Testnet.
 
 # Project Detail
-For this part, we begin with a Bitcoin address on testnet chain. The address we created form the website bitaddress.org is as follows:
+For this part, we begin with a Bitcoin address on testnet chain. The address we created form the website `bitaddress.org` is as follows:
 ![image](PNG/address.png)
 
 Now our address has no balance, so next we turn to some Bitcoin Faucets to get some BTC. Then we should check out these transcations on a website which supports Bitcoin test chain query such as https://live.blockcypher.com/btc-testnet/. Enter the address we got above, and we can get all the transactions about our address.
@@ -28,7 +28,7 @@ One output address is our testnet address `n1WbphJqRMJBB76nRQxCXMRqNFcqaAYqqe`, 
 ![image](PNG/txView.png)
 When we check the advanced details of the transaction, we can know that the transaction Index is 11 which means this transaction is the eleventh transaction in this block. The Block hash is `0000000000000016b964bf20869ac7983db9303dcd60562bc56200326387cb45` and its height is `2284926`.
 
-Next we set about to prase the encoded information about the transaction whose size is 225 bytes, which can get form above image. The following are the complete field information.
+Next we set about to prase the encoded information about the transaction whose size is 225 bytes, which can get form above image. The following are the complete field information parsed from this transaction data of every bit:
 
 
 ```csv
@@ -106,6 +106,7 @@ Notice that for input and outpus, two script_type which are `pay-to-witness-pubk
 ### Guid
 
 If you want to check up above works, you can go to https://www.blockchain.com/btc-testnet/address/n1WbphJqRMJBB76nRQxCXMRqNFcqaAYqqe for the detail of this address. Note that the account balance may be empty because we probably have repaid the borrowed BTC, which you could find these transactions on the website.
+
 ### Developers
 
 Yang Kunyang
