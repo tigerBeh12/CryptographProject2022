@@ -9,7 +9,7 @@ This folder contains three projects for SM3 algorithm which are as follows:
 
 ## Folder Information
 ### SM3_coll
-- [main.swift](#main)
+- [main.swift](#main): 
     This file contains two functions, which are the external interface called. You can switch the bool variable "problem" to change the function between birthday attack and correctness testing. You can see the follows code in it:
     ```Swift
     ...
@@ -54,9 +54,9 @@ This folder contains three projects for SM3 algorithm which are as follows:
     print(value1)
     print(value2)
     ```
-- [Birthday_Attack](#naive)
+- [Birthday_Attack](#naive): 
     This folder is designed to implement the naive birthday attack for SM3 hash algorithm. The attack progress is designed in function `func attack()`. However, when we prolong the attack length this naive method will take a very long time that we couldn't accept, so we rewrite the other function which called `func updateAttack(rationIndex:Double)` to handle this case:
-```
+```Swift
 ...
     public func updateAttack(rationIndex:Double){
         var value:Array<UInt8> = Array<UInt8>(repeating:0,count:32)
@@ -84,7 +84,7 @@ This folder contains three projects for SM3 algorithm which are as follows:
 ```
 > Note that the variable `rationIndex` is the level we want to cut which means we check the preImage that have generated not by one time one preImage, but by one time ration preImage.
 
-- [Rho_method](#Rho)
+- [Rho_method](#Rho): 
     This folder is designed to implement the birthday attack based on Rho method for SM3 hash algorithm.The attack progress is also designed in function `func attack()`. 
 ```Swift
 ...
@@ -113,7 +113,7 @@ This folder contains three projects for SM3 algorithm which are as follows:
         }
     }
 ```
-- [Cryptography](#SM3)
+- [Cryptography](#SM3): 
     This folder contains the basic algorithms for the implementation of SM3 hash algorithm on which the above two attack methods are based. And in this project, we attempt to optimize SM3 implementation. Then main implementation part for SM3 is in file `SM3Digest.swift` which almost cotains the half bytes processing in SM3 algorithm. And the optimizing method we use are mostly Byte operation instead of Integration method which can make the calculation time reduce, as well other method which reduces repeated references and inheritance.
 
 ### SM3_coll.xcodeproj
@@ -151,15 +151,15 @@ Through two attack methods, the longest collision we find are as follows : messa
 For the implementation of SM3, we attempt a lot of messages of irregular length to evaluate the proformance of algorithm we accomplished. And the result are as follows:
 
 - [1,000 times](#result1)
-> ![image](result1.png)
+> ![image](PNG/result1.png)
 When we use SM3 Hash for 1,000 messages of irregular length, it costs approximate 480ms which means 0.48ms for one time hash in average. 
 
 - [10,000 times](#result2)
-> ![image](result2.png)
+> ![image](PNG/result2.png)
 When we use SM3 Hash for 10,000 messages of irregular length, it costs approximate 4.31s which means 0.431ms for one time hash in average. 
 
 - [100,000 times](#result3)
-> ![image](result3.png)
+> ![image](PNG/result3.png)
 The 100,000 times test means that 0.4227ms for one time hash in average.
 
 
