@@ -137,7 +137,7 @@ Through two attack methods, the longest collision we find are as follows : messa
 - [reduced(prefix 51) hash value](#coll)
     10110111 1101110 00010100 11001101 10111010 01001101 101
 
-##Another collision(50 bits)
+## Another collision(50 bits)
 - [message1](#message)
     [63, 122, 230, 120, 83, 201, 198, 65, 134, 139, 2, 244, 247, 206, 56, 186, 227, 47, 165, 253, 117, 249, 164, 17, 157, 82, 193, 17, 132, 228, 237, 8]
 - [message2](#message)
