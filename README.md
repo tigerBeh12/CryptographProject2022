@@ -1,9 +1,7 @@
 # Cryptograph Project 2022
-> Personal projects and homeworks for Cryptography Inovation course,2022 Fall.
+> Personal projects and homework for Cryptography Inovation course, 2022 Fall.
 ## Development Member
-> This Git repository is only maintained by one person - `Kungyang Yang`. So the all projects completely accomplish by Kunyang, whose GitHub account number is `tigerBeh12`.
-
-
+> This Git repository is only maintained by one person - `Kungyang Yang`. So the all projects completely accomplish by Kunyang whose GitHub account number is `tigerBeh12`.
 
 
 
@@ -18,7 +16,6 @@ This repository contains three completely projects for SM3 and one accomplished 
 
 ### Bitcoin Project
 - [Project 4](#Project): Send a tx on Bitcoin testate, and parse the tx data down to every bit, better write script yourself.
-
 
 
 # Deployment Guide
