@@ -152,7 +152,7 @@ For the implementation of SM3, we attempt a lot of messages of irregular length 
 
 - [1,000 times](#result1)
 > ![image](PNG/result1.png)
-When we use SM3 Hash for 1,000 messages of irregular length, it costs approximate 480ms which means 0.48ms for one time hash in average. 
+When we use SM3 Hash for 1,000 messages of irregular length, it costs approximate 448ms which means 0.448ms for one time hash in average. 
 
 - [10,000 times](#result2)
 > ![image](PNG/result2.png)
